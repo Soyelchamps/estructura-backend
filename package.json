@@ -1,0 +1,24 @@
+{
+  "name": "04advance-backend",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Soyelchamps/estructura-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Soyelchamps/estructura-backend/issues"
+  },
+  "homepage": "https://github.com/Soyelchamps/estructura-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mongoose": "^6.6.5"
+  }
+}
