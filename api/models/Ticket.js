@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-import User from "./User";
 
 /**
  * 1.- Schema (molde) ✅
@@ -16,7 +15,7 @@ const ticketSchema = new mongoose.Schema({
       ref: "Item",
     },
   ],
-  users: {
+  user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
   },

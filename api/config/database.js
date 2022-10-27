@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
 import config from "./index.js";
 const db = mongoose.connection;
-db.on("conecting", () => {
+db.on("connecting", () => {
   console.log("Conectado a la base de datos");
 });
-db.on("conected", () => {
+db.on("connected", () => {
   console.log("Se ha conectado a la base de datos ");
 });
 

@@ -7,3 +7,13 @@
 5.- Enlistar restaurantes que hayan tenido una calificacion (score) mayor o igual a 90
 6.- Restaurantes que no sean de cocina (cuisene) " American " y una calificacion mayor a 70 
 7.- Encontrar el ID, Nombre, ciduada de Borx and state island
+
+8.- Crear ruta / ticket/calculate/ Que calcule el subtotal del ticket basado en la suma de todos los items y el valor del subtotal mas el porcentaje del impuesto y actualizar el mismo ticket. (array.foreach array )
+
+-Crear ruta
+-Crear controlador
+    -que recibimos el ticket id
+    -ticket actualiazado
+Todos los Mid
+
+
