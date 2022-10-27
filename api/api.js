@@ -2,8 +2,11 @@ import express from "express";
 import itemRoutes from "./routes/itemRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import ticketRoutes from "./routes/ticketRoutes.js";
+import { middlewarePrueba } from "./middleware/middlewarePrueba.js";
+import morgan from "morgan";
 
 const api = express();
+api.use(morgan("tiny"));
 
 api.use(express.json());
 api.get("/status", (_, res) => {
@@ -12,6 +15,7 @@ api.get("/status", (_, res) => {
   });
 });
 
+api.use(middlewarePrueba);
 api.use(itemRoutes);
 api.use(userRoutes);
 api.use(ticketRoutes);

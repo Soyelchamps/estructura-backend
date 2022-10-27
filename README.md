@@ -14,6 +14,16 @@
 -Crear controlador
     -que recibimos el ticket id
     -ticket actualiazado
-Todos los Mid
+Todos los Middlewares comparten req y res
+
+joi
+-1. Crear schema
+-2 usar ell schema para validar
+-Validadores de 
 
 
+Crear ticket
+crear item
+update ticket
+update item
+update user

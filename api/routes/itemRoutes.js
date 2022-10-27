@@ -13,6 +13,6 @@ router
   .put(itemController.update)
   .delete(itemController.remove);
 
-router.route("/items/:id/calculate").get(itemController.calculate);
+router.route("/items/:id/calculate").put(itemController.calculateById);
 
 export default router;
